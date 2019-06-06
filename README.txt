@@ -1,6 +1,15 @@
 V1.0
 
-# usage:
+Aim of this skript is to convert the formerly used HDF5 format to the new TOF format at RESEDA (https://mlz-garching.de/instrumente-und-labore/spektroskopie/reseda.html).
+
+Requirements:
+- python 2.7 or higher
+- h5py
+- re
+- numpy
+
+
+Usage:
 ## string with path and name of the input HDF-file.
 hdf_name_w_path = '038725'
 ## Sample detector distance and wavelength of the experiment
