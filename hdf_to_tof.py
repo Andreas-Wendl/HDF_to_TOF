@@ -7,7 +7,7 @@ def load_hdf(hdf_file, number_of_foils, lsd, wavelength, exclude = []):
         '''
         Returns:
         5D np.array [#jobs, #foils (8 in this version), 16, 128, 128]), rearranged according to foil_order
-        Adapted from Franz analysis code.
+        Adapted from F. Haslbecks (TUM) analysis code.
         '''
         hdf = h5py.File(hdf_file,"r")
         exclude = exclude
